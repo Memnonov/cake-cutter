@@ -1,0 +1,14 @@
+- find flowers in area (hold on to found flowers)		
+- if only 1 flower, save as a piece		
+		
+- Split in half		
+- try to find at least one flower in both areas		
+		
+- If both halves contain flowers		
+		--> OK, split and process splits again
+		
+- If any half contains 0 flowers		
+		--> split from last flower in cut direction
+		if OK → process halves normally
+		    BAD → process whole area from other direction
+
